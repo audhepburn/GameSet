@@ -1,5 +1,5 @@
-from lib2to3.pgen2.pgen import DFAState
-import numpy as np
+
+
 
 
 class RoundSys():
@@ -11,3 +11,6 @@ class RoundSys():
 
     def base_rule(self, id, score, played_oppo):
         pass
+
+
+x = RoundSys()
