@@ -7,9 +7,6 @@ class Player():
         self.score = score
         self.played_oppo = played_oppo
 
-    def one_vs_one():
-        pass
-
     @property
     def get_info(self):
         return list((self.id, self.score, self.played_oppo))
