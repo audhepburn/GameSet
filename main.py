@@ -25,16 +25,6 @@ class RoundSys():
         self.players = players
         self.sorted_score_list = self.sort_score(players)
 
-    def is_played_player(self, player1, player2):
-        if player2.id in player1.played_oppo:
-            return True
-        else:
-            return False
-
-    def avail_oppo(self, player_status):
-        for i in range(len(player_status)):
-            pass
-
     def sort_score(self, players):
         score_list = []
         for item in players:
